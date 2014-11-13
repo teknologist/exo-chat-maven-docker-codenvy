@@ -16,7 +16,3 @@ USER exo
 RUN mv ${EXO_APP_DIR}/current/start_eXo.sh ${EXO_APP_DIR}/current/start_eXo-ORI.sh
 ADD local.json ${EXO_APP_DIR}/current/addons/
 ADD start_eXo.sh ${EXO_APP_DIR}/current/start_eXo.sh
-
-USER root
-RUN chmod 775 ${EXO_APP_DIR}/current/start_eXo.sh && \
- chown -R ${EXO_USER}:${EXO_GROUP} ${EXO_APP_DIR}/current/start_eXo.sh
