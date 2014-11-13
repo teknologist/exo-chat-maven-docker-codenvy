@@ -1,8 +1,6 @@
 FROM teknologist/exo-maven
 MAINTAINER Eric Taieb Walch <teknologist@gmail.com>
 
-ENV M2_HOME /opt/apache-maven-3.2.3
-
 USER root
 RUN chown -R ${EXO_USER}:${EXO_GROUP} ${EXO_APP_DIR}/
 
