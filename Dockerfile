@@ -1,4 +1,4 @@
-FROM teknologist/exo-chat-maven-codenvy
+FROM teknologist/exo-maven
 MAINTAINER Eric Taieb Walch <teknologist@gmail.com>
 
 ENV EXOADDON_SRC_DIR /home/${EXO_USER}/src
