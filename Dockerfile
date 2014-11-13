@@ -13,5 +13,6 @@ RUN apt-get -qq update && \
 
 USER exo
 
+RUN mv ${EXO_APP_DIR}/current/start_eXo.sh ${EXO_APP_DIR}/current/start_eXo-ORI.sh
 ADD local.json ${EXO_APP_DIR}/current/addons/
 ADD start_eXo.sh ${EXO_APP_DIR}/current/start_eXo.sh
