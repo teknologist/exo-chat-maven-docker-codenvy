@@ -7,7 +7,7 @@
         "description": "eXo custom version of eXo Chat",
         "releaseDate": "2014-11-12T22:00:00.000Z",
         "sourceUrl": "https://github.com/exo-addons/chat-application",
-        "downloadUrl": "file:///home/exo/.m2/repository/org/exoplatform/addons/chat/exo-addons-chat-extension-pkg-community/1.0.x-SNAPSHOT/exo-addons-chat-extension-pkg-community-1.0.x-SNAPSHOT.zip",
+        "downloadUrl": "file:///home/exo/src/exo-addons-chat-extension-pkg-community/target/exo-addons-chat-extension-pkg-community-1.0.x-SNAPSHOT.zip",
         "vendor": "eXo",
         "license": "LGPLv3",
         "licenseUrl": "https://www.gnu.org/licenses/lgpl-3.0.txt",
