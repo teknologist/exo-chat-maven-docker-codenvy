@@ -1,4 +1,4 @@
-FROM teknologist/exo-maven
+FROM teknologist/exo-maven-setup-done
 MAINTAINER Eric Taieb Walch <teknologist@gmail.com>
 
 ENV EXOADDON_SRC_DIR /home/${EXO_USER}/src
