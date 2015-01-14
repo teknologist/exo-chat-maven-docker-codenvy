@@ -2,7 +2,6 @@ FROM teknologist/exo-maven-setup-done
 MAINTAINER Eric Taieb Walch <teknologist@gmail.com>
 
 ENV EXOADDON_SRC_DIR /home/${EXO_USER}/src
-ENV M2_HOME /opt/apache-maven-3.2.3
 
 RUN echo "Installing Mongo"
 
